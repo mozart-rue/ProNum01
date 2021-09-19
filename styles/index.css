@@ -1,0 +1,120 @@
+@import './reset.css';
+
+body{
+    background-color: #89906f;
+}
+
+.nav-bar__bkg {
+   background-image: url('../img/NovoBanner.svg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+   height: calc(100vh - 150px);
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 18px;
+    background-color: #89906f; 
+    border-radius: 15px;
+    opacity: 60%;
+}
+
+.nav-bar__menu{
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+    color: honeydew;
+    justify-content: space-around;
+    margin-right: 20px;
+}
+
+.nav-bar__menu h3{
+    margin-left: 18px;
+    text-decoration: none;
+    color: honeydew;
+}
+
+.Produto{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.Produto__title{
+    font-size: 20px;
+    color: green;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.Produto__text{
+    text-align: center;
+    font-size: 18px;
+    margin-left: 12px;
+    color: honeydew;
+}
+
+.Quem_Somos{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.formulario input,
+.formulario textarea,
+.formulario button {
+    display: block;
+    width: 100%;
+}
+
+.formulario input,
+.formulario textarea{
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid green;
+    font-size: 16px;
+    margin-top: 14px;
+}
+
+.formulario button{
+    font-size: 16px;
+    background: green;
+    margin-top: 12px;
+    border-radius: 12px;
+    border: 1px solid burlywood;
+}
+
+.contato hr{
+    border: 1px solid rgba(2, 31, 2, 0.329);
+    width: 90%;
+
+}
+
+.formulario textarea{
+    min-height: 10rem;
+    resize: vertical;
+}
+
+@media (max-width: 912px){
+    .nav-bar__bkg {
+        background-image: url('../img/NovoBanner.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: calc(100vh - 150px);
+     }
+}

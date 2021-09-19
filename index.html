@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>Credito Carbono</title>
+</head>
+<body>
+        <header>
+            <section class="nav-bar__bkg">
+                <div class="nav-bar">
+                    <div class="nav-bar__logo">
+                        <h1>Nome da Empresa</h1>
+                    </div>
+
+                    <div class="nav-bar__menu">
+                            <a href="#produto"><h3>Compre Creditos</h3></a>
+                            <a href="#quem_somos"><h3>Quem Somos?</h3></a>
+                            <a href="#contato"><h3>Contato</h3></a>
+                    </div>
+                </div>
+            </section>
+        </header>
+        
+        <section class="main_content">
+            <section class="Produto">
+                <div class="Produto__title" id="produto">
+                    <h1>Credito de Carbono</h1>
+                </div>
+                <div class="Produto__text">
+                    texto que apresenta o produto <br>
+                    fazendo uma apresentacao do produto
+                </div>
+            </section>
+
+            <section>
+                <div class="Quem_Somos">
+                    <div class="Produto__title" id="quem_somos">
+                        <h1>Quem Somos?</h1>
+                    </div>
+                    <div class="Produto__text">
+                        texto que apresenta a empresa <br>
+                        faz uma breve descricao do objetivo <br>
+                        Valores, Missao, Visao
+                    </div>
+                </div>
+            </section>
+            
+            <section>
+                <div class="contato">
+                    <hr>
+                    <div class="Produto__title" id="contato">
+                        <h1>Entre em Contato</h1>
+                    </div>
+                    <form action="https://formsubmit.co/mozartluguirueckert@gmail.com" method="POST" class="formulario">
+
+                        <input type="text" name="name" placeholder="Nome" id="name" required>
+
+                        <input type="email" name="email" placeholder="E-mail" id="email" required>
+
+                        <textarea name="message" placeholder="Sua mensagem ..." id="message" required></textarea>
+                        <input type="hidden" name="_captcha" value="false">
+
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </section>
+        </section>
+</body>
+</html>

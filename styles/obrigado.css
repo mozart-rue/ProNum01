@@ -1,0 +1,26 @@
+@import './reset.css';
+
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thanks{
+    color: silver;
+    text-align: center;
+}
+
+.thanks h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.thanks h2{
+    font-size: 30px;
+}
